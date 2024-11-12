@@ -1,3 +1,7 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "rule-name": "off", // Replace "rule-name" with the actual rule you want to disable
+    "another-rule": "warn" // Alternatively, set it to "warn" instead of disabling completely
+  }
 }
